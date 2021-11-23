@@ -56,7 +56,7 @@ if direction == "left":
             print("°                                          °")
             print("°                                          °")
             print("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°")         
-            if wdoor == "red":
+        elif wdoor == "red":
                 os.system("clear")
                 print("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°")
                 print("°                                          °")
@@ -71,7 +71,7 @@ if direction == "left":
                 print("°             GAME OVER hahaha             °")
                 print("°                                          °") 
                 print("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°")
-                if wdoor == "blue":
+        elif wdoor == "blue":
                     os.system("clear")
                     print("°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°")
                     print("°                                          °")
